@@ -5,16 +5,16 @@ RUN wget https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.
 
 COPY ./data/chemotion-kg.ttl /data/ontology.ttl
 
-RUN java -jar widoco-1.4.25-jar-with-dependencies_JDK-11.jar \
-    -ontFile /data/ontology.ttl \
-    -outFolder public \
-    -uniteSections \
-    -includeAnnotationProperties \
-    -lang en-de \
-    -getOntologyMetadata \
-    -noPlaceHolderText \
-    -rewriteAll \
-    -webVowl
+#RUN java -jar widoco-1.4.25-jar-with-dependencies_JDK-11.jar \
+#    -ontFile /data/ontology.ttl \
+#    -outFolder public \
+#    -uniteSections \
+#    -includeAnnotationProperties \
+#    -lang en-de \
+#    -getOntologyMetadata \
+#    -noPlaceHolderText \
+#    -rewriteAll \
+#    -webVowl
 
 # Build and serve Chemotion-KG using SHMARQL and MkDocs
 FROM ghcr.io/epoz/shmarql:latest
@@ -26,5 +26,5 @@ RUN mkdocs build
 
 # Prepare the ontology documentation in the final site build
 RUN mkdir /src/site/ontology
-COPY --from=widoco /public /src/site/ontology
-RUN cp /src/site/ontology/index-en.html /src/site/ontology/index.html
+#COPY --from=widoco /public /src/site/ontology
+#RUN cp /src/site/ontology/index-en.html /src/site/ontology/index.html

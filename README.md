@@ -7,4 +7,9 @@
 For testing, you can run:
 
 ```shell
+docker build -t chemotion-kg .
+```
+
+```shell
 docker run -it -p 8000:8000 -e DEBUG=1 -e DATA_LOAD_PATHS=/data/ -e MOUNT=/chemotion-kg/ chemotion-kg
+```

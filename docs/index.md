@@ -35,7 +35,7 @@ Chemotion-KG covers various aspects of chemical research:
 
 Use LodLive to visualize Chemotion-KG entities:
 
-- **Chemical Compound:** [Example Compound](http://en.lodlive.it/?<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2014/05/10.14272/YCJBWNIROIXYPD-UHFFFAOYSA-N/Mass/EI){:target="_blank"}
+- **Dataset:** [Example Dataset](https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2014/05/10.14272/YCJBWNIROIXYPD-UHFFFAOYSA-N/Mass/EI){:target="_blank"}
 
 ---
 

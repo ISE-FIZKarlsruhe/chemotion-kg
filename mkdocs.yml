@@ -1,0 +1,46 @@
+site_name: Chemotion-KG
+site_url: https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/
+repo_url: https://github.com/ISE-FIZKarlsruhe/chemotion-kg
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    primary: teal
+    accent: pink
+  features:
+    - content.code.copy
+    - toc.follow
+    - navigation.top
+    - header.autohide
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - shmarql
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      use_pygments: true
+      pygments_lang_class: true      
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+extra_javascript:
+  - javascripts/extra.js
+nav:
+- Home: index.md
+- Data Model: data_model.md
+- Ontology: /chemotion-kg/ontology/
+- Sample Queries:
+    - General Queries: general_queries.md
+- SPARQL Endpoint: /chemotion-kg/shmarql/

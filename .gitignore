@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Downloads and pre-processing
+processing/output/*
+processing/statistics/*
+processing/test/*
+processing/FDO/*
+processing/data/*
+
 # C extensions
 *.so
 

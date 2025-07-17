@@ -1,0 +1,2 @@
+docker run -v "%CD%:/work" -w /work --rm -ti obolibrary/odkfull robot merge  --input output_bfo_compliant.ttl --input mwo-full.owl --output output_not_reasoned.ttl 
+docker run -v "%CD%:/work" -w /work --rm -ti obolibrary/odkfull robot reason --reasoner hermit --axiom-generators "SubClass ClassAssertion PropertyAssertion InverseObjectProperties" --include-indirect true --input output_not_reasoned.ttl --output reasoned.ttl 

@@ -1,0 +1,1169 @@
+@prefix nfdicore: <https://nfdi.fiz-karlsruhe.de/ontology/> .
+@prefix ns1: <http://purls.helmholtz-metadaten.de/mwo/> .
+@prefix ns2: <http://purl.obolibrary.org/obo/chebi/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274969692_5192> a obo:CHEBI_23367 ;
+    rdfs:label "ethyl 4-[2-(2-phenoxyethylsulfanyl)benzimidazol-1-yl]butanoate" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/ethyl%204-%5B2-%282-phenoxyethylsulfanyl%29benzimidazol-1-yl%5Dbutanoate> ;
+    ns2:formula "C21H24N2O3S" ;
+    ns2:inchi "InChI=1S/C21H24N2O3S/c1-2-25-20(24)13-8-14-23-19-12-7-6-11-18(19)22-21(23)27-16-15-26-17-9-4-3-5-10-17/h3-7,9-12H,2,8,13-16H2,1H3" ;
+    ns2:inchikey "XSPLZMULOSAGDE-UHFFFAOYSA-N" ;
+    ns2:smiles "CCOC(=O)CCCn1c(SCCOc2ccccc2)nc2c1cccc2" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274969692_5193>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274969868_5196> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970055_5197> a obo:CHEBI_23367 ;
+    rdfs:label "N-benzyl-1-phenylmethanamine" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/N-benzyl-1-phenylmethanamine> ;
+    ns2:formula "C14H15N" ;
+    ns2:inchi "InChI=1S/C14H15N/c1-3-7-13(8-4-1)11-15-12-14-9-5-2-6-10-14/h1-10,15H,11-12H2" ;
+    ns2:inchikey "BWLUMTFWVZZZND-UHFFFAOYSA-N" ;
+    ns2:smiles "N(Cc1ccccc1)Cc1ccccc1" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970056_5198>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970246_5201>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970437_5203> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970609_5204> a obo:CHEBI_23367 ;
+    rdfs:label "methyl 2-(hydroxymethyl)prop-2-enoate" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/methyl%202-%28hydroxymethyl%29prop-2-enoate> ;
+    ns2:formula "C5H8O3" ;
+    ns2:inchi "InChI=1S/C5H8O3/c1-4(3-6)5(7)8-2/h6H,1,3H2,2H3" ;
+    ns2:inchikey "RFUCOAQWQVDBEU-UHFFFAOYSA-N" ;
+    ns2:smiles "COC(=O)C(=C)CO" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970610_5205> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970826_5209> a obo:CHEBI_23367 ;
+    rdfs:label "3-phenyl-1H-quinoxalin-2-one" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/3-phenyl-1H-quinoxalin-2-one> ;
+    ns2:formula "C14H10N2O" ;
+    ns2:inchi "InChI=1S/C14H10N2O/c17-14-13(10-6-2-1-3-7-10)15-11-8-4-5-9-12(11)16-14/h1-9H,(H,16,17)" ;
+    ns2:inchikey "ZBBQSGVRBQKLLE-UHFFFAOYSA-N" ;
+    ns2:smiles "O=c1[nH]c2ccccc2nc1c1ccccc1" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970826_5210>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970987_5212> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971181_5214> a obo:CHEBI_23367 ;
+    rdfs:label "4-(2,2,2-trifluoro-1-methoxy-1-trimethylsilyloxyethyl)benzonitrile" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/4-%282%2C2%2C2-trifluoro-1-methoxy-1-trimethylsilyloxyethyl%29benzonitrile> ;
+    ns2:formula "C13H16F3NO2Si" ;
+    ns2:inchi "InChI=1S/C13H16F3NO2Si/c1-18-12(13(14,15)16,19-20(2,3)4)11-7-5-10(9-17)6-8-11/h5-8H,1-4H3" ;
+    ns2:inchikey "DMJZIFYGIRUTNC-UHFFFAOYSA-N" ;
+    ns2:smiles "COC(C(F)(F)F)(c1ccc(cc1)C#N)O[Si](C)(C)C" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971179_5213>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971355_5216>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971536_5218>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971717_5220>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971883_5222>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972050_5224> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972252_5226> a obo:CHEBI_23367 ;
+    rdfs:label "(3aR,4R,6S,7aS)-4-methoxy-2,2,6-trimethyl-4,7a-dihydro-3aH-[1,3]dioxolo[4,5-c]pyran-7-one" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/%283aR%2C4R%2C6S%2C7aS%29-4-methoxy-2%2C2%2C6-trimethyl-4%2C7a-dihydro-3aH-%5B1%2C3%5Ddioxolo%5B4%2C5-c%5Dpyran-7-one> ;
+    ns2:formula "C10H16O5" ;
+    ns2:inchi "InChI=1S/C10H16O5/c1-5-6(11)7-8(9(12-4)13-5)15-10(2,3)14-7/h5,7-9H,1-4H3/t5-,7+,8+,9+/m0/s1" ;
+    ns2:inchikey "KJWWTYGUBFMPSA-KDBVAPGDSA-N" ;
+    ns2:smiles "CO[C@@H]1O[C@@H](C)C(=O)[C@@H]2[C@H]1OC(O2)(C)C" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972252_5227>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972429_5229>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972605_5231> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972776_5234> a obo:CHEBI_23367 ;
+    rdfs:label "N-(4-bromophenyl)acetamide" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/N-%284-bromophenyl%29acetamide> ;
+    ns2:formula "C8H8BrNO" ;
+    ns2:inchi "InChI=1S/C8H8BrNO/c1-6(11)10-8-4-2-7(9)3-5-8/h2-5H,1H3,(H,10,11)" ;
+    ns2:inchikey "MSLICLMCQYQNPK-UHFFFAOYSA-N" ;
+    ns2:smiles "CC(=O)Nc1ccc(cc1)Br" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972776_5233>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972938_5236>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973097_5239>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973280_5240> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973489_5242> a obo:CHEBI_23367 ;
+    rdfs:label "1-methoxy-2-methyl-4-nitrobenzene" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/1-methoxy-2-methyl-4-nitrobenzene> ;
+    ns2:formula "C8H9NO3" ;
+    ns2:inchi "InChI=1S/C8H9NO3/c1-6-5-7(9(10)11)3-4-8(6)12-2/h3-5H,1-2H3" ;
+    ns2:inchikey "QOZMIJZYJZQOBV-UHFFFAOYSA-N" ;
+    ns2:smiles "COc1ccc(cc1C)[N+](=O)[O-]" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973490_5243>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973670_5245> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973855_5248> a obo:CHEBI_23367 ;
+    rdfs:label "4-(1,3-dithian-5-ylmethyl)benzonitrile" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/4-%281%2C3-dithian-5-ylmethyl%29benzonitrile> ;
+    ns2:formula "C12H13NS2" ;
+    ns2:inchi "InChI=1S/C12H13NS2/c13-6-11-3-1-10(2-4-11)5-12-7-14-9-15-8-12/h1-4,12H,5,7-9H2" ;
+    ns2:inchikey "RVVAHTWERJYRDV-UHFFFAOYSA-N" ;
+    ns2:smiles "N#Cc1ccc(cc1)CC1CSCSC1" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973854_5247>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974033_5250>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974217_5252> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974403_5254> a obo:CHEBI_23367 ;
+    rdfs:label "1,3-dithian-5-ylmethanol" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/1%2C3-dithian-5-ylmethanol> ;
+    ns2:formula "C5H10OS2" ;
+    ns2:inchi "InChI=1S/C5H10OS2/c6-1-5-2-7-4-8-3-5/h5-6H,1-4H2" ;
+    ns2:inchikey "SYCQUNJUFCLEDD-UHFFFAOYSA-N" ;
+    ns2:smiles "OCC1CSCSC1" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974404_5255>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974609_5257>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974790_5259> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974970_5262> a obo:CHEBI_23367 ;
+    rdfs:label "ethyl 2-(2,6-dimethylanilino)-2-oxoacetate" ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/ethyl%202-%282%2C6-dimethylanilino%29-2-oxoacetate> ;
+    ns2:formula "C12H15NO3" ;
+    ns2:inchi "InChI=1S/C12H15NO3/c1-4-16-12(15)11(14)13-10-8(2)6-5-7-9(10)3/h5-7H,4H2,1-3H3,(H,13,14)" ;
+    ns2:inchikey "XKILREZHHLCALS-UHFFFAOYSA-N" ;
+    ns2:smiles "CCOC(=O)C(=O)Nc1c(C)cccc1C" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974970_5261>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274975120_5264>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274975280_5266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274975445_5268> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/02/10.14272/XSPLZMULOSAGDE-UHFFFAOYSA-N/NMR/13C/CDCl3/62.5.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3078> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/XSPLZMULOSAGDE-UHFFFAOYSA-N/NMR/13C/CDCl3/62.5.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/02/10.14272/XSPLZMULOSAGDE-UHFFFAOYSA-N/NMR/1H/CDCl3/250.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3077> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/XSPLZMULOSAGDE-UHFFFAOYSA-N/NMR/1H/CDCl3/250.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/04/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/Mass/EI.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000480 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3089> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/Mass/EI.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/04/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3090> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/04/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3088> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/04/10.14272/RFUCOAQWQVDBEU-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3085> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/RFUCOAQWQVDBEU-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/04/10.14272/ZBBQSGVRBQKLLE-UHFFFAOYSA-N/Mass/EI.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000480 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3080> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/ZBBQSGVRBQKLLE-UHFFFAOYSA-N/Mass/EI.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/04/10.14272/ZBBQSGVRBQKLLE-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3082> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/ZBBQSGVRBQKLLE-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/09/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/Mass/EI.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000480 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3097> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/Mass/EI.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/09/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3095> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/09/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/13C/CDCl3/125.2> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3096> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/13C/CDCl3/125.2> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/09/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3093> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/09/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/1H/CDCl3/500.2> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3094> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/1H/CDCl3/500.2> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/09/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/TLC.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20thin-layer%20chromatography%20%28TLC%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/thin-layer%20chromatography%20%28TLC%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0001007 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3098> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/TLC.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/IR.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20infrared%20absorption%20spectroscopy%20%28IR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/infrared%20absorption%20spectroscopy%20%28IR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000630 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3111> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/IR.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/NMR/13C/CDCl3/75.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3110> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/NMR/13C/CDCl3/75.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/NMR/1H/CDCl3/300.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3109> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/NMR/1H/CDCl3/300.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/IR.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20infrared%20absorption%20spectroscopy%20%28IR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/infrared%20absorption%20spectroscopy%20%28IR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000630 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3102> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/IR.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/Mass/EI.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000480 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3103> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/Mass/EI.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/NMR/13C/MeOD/62.5.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3101> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/NMR/13C/MeOD/62.5.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/NMR/1H/MeOD/250.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3100> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/NMR/1H/MeOD/250.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/QOZMIJZYJZQOBV-UHFFFAOYSA-N/NMR/13C/CDCl3/75.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3120> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/QOZMIJZYJZQOBV-UHFFFAOYSA-N/NMR/13C/CDCl3/75.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/QOZMIJZYJZQOBV-UHFFFAOYSA-N/NMR/1H/CDCl3/300.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3118> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/QOZMIJZYJZQOBV-UHFFFAOYSA-N/NMR/1H/CDCl3/300.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/IR.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20infrared%20absorption%20spectroscopy%20%28IR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/infrared%20absorption%20spectroscopy%20%28IR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000630 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3122> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/IR.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3124> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3123> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/IR.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20infrared%20absorption%20spectroscopy%20%28IR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/infrared%20absorption%20spectroscopy%20%28IR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000630 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3105> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/IR.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3106> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3107> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/IR.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20infrared%20absorption%20spectroscopy%20%28IR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/infrared%20absorption%20spectroscopy%20%28IR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000630 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3115> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/IR.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/Mass/EI.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000480 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3116> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/Mass/EI.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000595 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3114> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/2016/11/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a nfdicore:NFDI_0000009 ;
+    obo:BFO_0000178 <https://www.chemotion-repository.net> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> ;
+    nfdicore:NFDI_0000142 <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    nfdicore:NFDI_0000191 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> ;
+    nfdicore:NFDI_0000216 obo:CHMO_0000593 ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3113> ;
+    nfdicore:NFDI_0001023 <https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+obo:CHMO_0001007 rdfs:label "thin-layer chromatography" ;
+    obo:BFO_0000178 obo:chmo.owl ;
+    obo:IAO_0000118 "TLC" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0001007> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/agent/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000102 ;
+    obo:BFO_0000196 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/role/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/agent/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000102 ;
+    obo:BFO_0000196 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/role/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/%283aR%2C4R%2C6S%2C7aS%29-4-methoxy-2%2C2%2C6-trimethyl-4%2C7a-dihydro-3aH-%5B1%2C3%5Ddioxolo%5B4%2C5-c%5Dpyran-7-one> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "(3aR,4R,6S,7aS)-4-methoxy-2,2,6-trimethyl-4,7a-dihydro-3aH-[1,3]dioxolo[4,5-c]pyran-7-one" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/1%2C3-dithian-5-ylmethanol> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "1,3-dithian-5-ylmethanol" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/1-methoxy-2-methyl-4-nitrobenzene> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "1-methoxy-2-methyl-4-nitrobenzene" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/3-phenyl-1H-quinoxalin-2-one> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "3-phenyl-1H-quinoxalin-2-one" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/4-%281%2C3-dithian-5-ylmethyl%29benzonitrile> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "4-(1,3-dithian-5-ylmethyl)benzonitrile" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/4-%282%2C2%2C2-trifluoro-1-methoxy-1-trimethylsilyloxyethyl%29benzonitrile> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "4-(2,2,2-trifluoro-1-methoxy-1-trimethylsilyloxyethyl)benzonitrile" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/N-%284-bromophenyl%29acetamide> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "N-(4-bromophenyl)acetamide" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/N-benzyl-1-phenylmethanamine> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "N-benzyl-1-phenylmethanamine" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/ethyl%202-%282%2C6-dimethylanilino%29-2-oxoacetate> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "ethyl 2-(2,6-dimethylanilino)-2-oxoacetate" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/ethyl%204-%5B2-%282-phenoxyethylsulfanyl%29benzimidazol-1-yl%5Dbutanoate> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "ethyl 4-[2-(2-phenoxyethylsulfanyl)benzimidazol-1-yl]butanoate" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/methyl%202-%28hydroxymethyl%29prop-2-enoate> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "methyl 2-(hydroxymethyl)prop-2-enoate" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20thin-layer%20chromatography%20%28TLC%29%5Cn%5Cn> a nfdicore:NFDI_0001018 ;
+    nfdicore:NFDI_0001007 "dataset for  thin-layer chromatography (TLC)\\n\\n" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Hodapp> a obo:IAO_0020017 ;
+    nfdicore:NFDI_0001007 "Hodapp" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Susanto> a obo:IAO_0020017 ;
+    nfdicore:NFDI_0001007 "Susanto" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Vanderheiden-Schroen> a obo:IAO_0020017 ;
+    nfdicore:NFDI_0001007 "Vanderheiden-Schroen" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Wippert> a obo:IAO_0020017 ;
+    nfdicore:NFDI_0001007 "Wippert" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Nicolai> a obo:IAO_0020016 ;
+    nfdicore:NFDI_0001007 "Nicolai" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Patrick> a obo:IAO_0020016 ;
+    nfdicore:NFDI_0001007 "Patrick" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Steven> a obo:IAO_0020016 ;
+    nfdicore:NFDI_0001007 "Steven" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Sylvia> a obo:IAO_0020016 ;
+    nfdicore:NFDI_0001007 "Sylvia" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3077> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3077" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3078> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3078" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3080> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3080" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3082> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3082" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3085> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3085" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3088> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3088" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3089> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3089" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3090> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3090" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3093> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3093" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3094> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3094" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3095> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3095" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3096> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3096" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3097> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3097" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3098> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3098" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3100> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3100" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3101> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3101" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3102> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3102" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3103> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3103" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3105> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3105" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3106> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3106" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3107> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3107" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3109> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3109" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3110> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3110" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3111> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3111" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3113> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3113" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3114> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3114" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3115> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3115" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3116> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3116" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3118> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3118" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3120> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3120" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3122> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3122" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3123> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3123" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/CRD-3124> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CRD-3124" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/thin-layer%20chromatography%20%28TLC%29> a nfdicore:NFDI_0001019 ;
+    nfdicore:NFDI_0001007 "thin-layer chromatography (TLC)" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274969692_5193> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.844919e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274969868_5196> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.844919e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970056_5198> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.972756e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970246_5201> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.972756e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970437_5203> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.972756e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970610_5205> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.161152e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970826_5210> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.22242e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970987_5212> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.22242e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971179_5213> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.033523e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971355_5216> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.033523e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971536_5218> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.033523e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971717_5220> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.033523e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274971883_5222> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.033523e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972050_5224> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 3.033523e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972252_5227> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.16231e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972429_5229> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.16231e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972605_5231> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.16231e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972776_5233> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.140592e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274972938_5236> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.140592e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973097_5239> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.140592e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973280_5240> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.140592e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973490_5243> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.67162e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973670_5245> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.67162e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274973854_5247> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.353683e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974033_5250> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.353683e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974217_5252> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.353683e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974404_5255> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.502623e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974609_5257> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.502623e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974790_5259> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 1.502623e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274974970_5261> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.212524e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274975120_5264> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.212524e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274975280_5266> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.212524e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274975445_5268> a obo:IAO_0000109 ;
+    ns1:MWO_0001119 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> ;
+    nfdicore:NFDI_0001007 2.212524e+02 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoragent/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000102 ;
+    obo:BFO_0000196 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorrole/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoragent/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000102 ;
+    obo:BFO_0000196 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorrole/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000480> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CHMO:0000480" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000593> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CHMO:0000593" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000595> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CHMO:0000595" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000630> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CHMO:0000630" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0001007> a nfdicore:NFDI_0000015 ;
+    nfdicore:NFDI_0001007 "CHMO:0001007" .
+
+<https://doi.org/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/Mass/EI.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/BWLUMTFWVZZZND-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/Mass/EI.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/13C/CDCl3/125.2> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/NMR/1H/CDCl3/500.2> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/DMJZIFYGIRUTNC-UHFFFAOYSA-N/TLC.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/IR.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/NMR/13C/CDCl3/75.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/KJWWTYGUBFMPSA-KDBVAPGDSA-N/NMR/1H/CDCl3/300.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/IR.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/Mass/EI.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/NMR/13C/MeOD/62.5.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/MSLICLMCQYQNPK-UHFFFAOYSA-N/NMR/1H/MeOD/250.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/QOZMIJZYJZQOBV-UHFFFAOYSA-N/NMR/13C/CDCl3/75.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/QOZMIJZYJZQOBV-UHFFFAOYSA-N/NMR/1H/CDCl3/300.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/RFUCOAQWQVDBEU-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/IR.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/RVVAHTWERJYRDV-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/IR.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/SYCQUNJUFCLEDD-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/IR.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/Mass/EI.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/XKILREZHHLCALS-UHFFFAOYSA-N/NMR/1H/CDCl3/500.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/XSPLZMULOSAGDE-UHFFFAOYSA-N/NMR/13C/CDCl3/62.5.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/XSPLZMULOSAGDE-UHFFFAOYSA-N/NMR/1H/CDCl3/250.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/ZBBQSGVRBQKLLE-UHFFFAOYSA-N/Mass/EI.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://doi.org/10.14272/ZBBQSGVRBQKLLE-UHFFFAOYSA-N/NMR/13C/CDCl3/125.1> a obo:BFO_0000015 ;
+    nfdicore:NFDI_0001027 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000115 ;
+    obo:BFO_0000055 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/role/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000057 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/agent/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522971_3> a nfdicore:NFDI_0000003 ;
+    rdfs:label "Stefan Bräse Group, Institute of Organic Chemistry, Karlsruhe Institute of Technology, Germany" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970826_5208> a nfdicore:NFDI_0000003 ;
+    rdfs:label "Stefan Bräse Group, Complat, Karlsruhe Institute of Technology, Germany" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/role/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000118 ;
+    obo:BFO_0000054 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000197 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970826_5208> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/role/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000118 ;
+    obo:BFO_0000054 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000197 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522971_3> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000115 ;
+    obo:BFO_0000055 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorrole/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000057 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoragent/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorrole/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000118 ;
+    obo:BFO_0000054 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000197 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274970826_5208> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorrole/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000118 ;
+    obo:BFO_0000054 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000197 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522971_3> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000115 ;
+    obo:BFO_0000055 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/role/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000057 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/agent/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> a nfdicore:NFDI_0000115 ;
+    obo:BFO_0000055 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorrole/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:BFO_0000057 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoragent/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> .
+
+obo:CHMO_0000480 rdfs:label "electron ionisation mass spectrometry" ;
+    obo:BFO_0000178 obo:chmo.owl ;
+    obo:IAO_0000118 "EI-MS",
+        "electron impact ionisation mass spectrometry",
+        "electron impact mass spectrometry",
+        "electron ionisation mass spectroscopy",
+        "electron ionization mass spectrometry",
+        "electron ionization mass spectroscopy",
+        "electron-impact ionisation mass spectrosopy",
+        "electron-impact ionization mass spectrosopy" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000480> .
+
+obo:CHMO_0000630 rdfs:label "infrared absorption spectroscopy" ;
+    obo:BFO_0000178 obo:chmo.owl ;
+    obo:IAO_0000118 "IR",
+        "IR absorption spectrometry",
+        "IR absorption spectroscopy",
+        "IR spectrometry",
+        "IR spectrophotometry",
+        "IR spectroscopy",
+        "infra-red absorption spectrometry",
+        "infra-red absorption spectroscopy",
+        "infra-red spectrometry",
+        "infra-red spectrophotometry",
+        "infrared (IR) spectroscopy",
+        "infrared absorption spectrometry",
+        "infrared spectrometry",
+        "infrared spectrophotometry",
+        "infrared spectroscopy" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000630> .
+
+obo:chmo.owl a obo:IAO_0000027 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29%5Cn%5Cn> a nfdicore:NFDI_0001018 ;
+    nfdicore:NFDI_0001007 "dataset for  electron ionisation mass spectrometry (EI-MS)\\n\\n" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%20infrared%20absorption%20spectroscopy%20%28IR%29%5Cn%5Cn> a nfdicore:NFDI_0001018 ;
+    nfdicore:NFDI_0001007 "dataset for  infrared absorption spectroscopy (IR)\\n\\n" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/electron%20ionisation%20mass%20spectrometry%20%28EI-MS%29> a nfdicore:NFDI_0001019 ;
+    nfdicore:NFDI_0001007 "electron ionisation mass spectrometry (EI-MS)" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/infrared%20absorption%20spectroscopy%20%28IR%29> a nfdicore:NFDI_0001019 ;
+    nfdicore:NFDI_0001007 "infrared absorption spectroscopy (IR)" .
+
+obo:CHMO_0000593 rdfs:label "1H nuclear magnetic resonance spectroscopy" ;
+    obo:BFO_0000178 obo:chmo.owl ;
+    obo:IAO_0000118 "1H NMR",
+        "1H NMR spectroscopy",
+        "1H nuclear magnetic resonance spectrometry",
+        "1H-NMR",
+        "1H-NMR spectrometry",
+        "1H-NMR spectroscopy",
+        "proton NMR",
+        "proton nuclear magnetic resonance spectroscopy" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000593> .
+
+obo:CHMO_0000595 rdfs:label "13C nuclear magnetic resonance spectroscopy" ;
+    obo:BFO_0000178 obo:chmo.owl ;
+    obo:IAO_0000118 "13C NMR",
+        "13C NMR spectroscopy",
+        "13C nuclear magnetic resonance spectrometry",
+        "13C-NMR spectrometry",
+        "13C-NMR spectroscopy",
+        "C-NMR",
+        "carbon NMR" ;
+    nfdicore:NFDI_0001006 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/CHMO%3A0000595> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%2013C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29%5Cn%5Cn> a nfdicore:NFDI_0001018 ;
+    nfdicore:NFDI_0001007 "dataset for  13C nuclear magnetic resonance spectroscopy (13C NMR)\\n\\n" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/dataset%20for%20%201H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29%5Cn%5Cn> a nfdicore:NFDI_0001018 ;
+    nfdicore:NFDI_0001007 "dataset for  1H nuclear magnetic resonance spectroscopy (1H NMR)\\n\\n" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/13C%20nuclear%20magnetic%20resonance%20spectroscopy%20%2813C%20NMR%29> a nfdicore:NFDI_0001019 ;
+    nfdicore:NFDI_0001007 "13C nuclear magnetic resonance spectroscopy (13C NMR)" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/1H%20nuclear%20magnetic%20resonance%20spectroscopy%20%281H%20NMR%29> a nfdicore:NFDI_0001019 ;
+    nfdicore:NFDI_0001007 "1H nuclear magnetic resonance spectroscopy (1H NMR)" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/g%2Fmol> a obo:IAO_0000003 ;
+    nfdicore:NFDI_0001007 "g/mol" .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274522972_7> a nfdicore:NFDI_0000003 ;
+    rdfs:label "chemotion-repository" .
+
+<https://www.chemotion-repository.net> a obo:IAO_0000578 .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274550788_353> a nfdicore:NFDI_0000004 ;
+    rdfs:label "Patrick Hodapp" ;
+    obo:BFO_0000056 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Complat%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Hodapp>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Patrick> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274803205_3266> a nfdicore:NFDI_0000004 ;
+    rdfs:label "Sylvia Vanderheiden-Schroen" ;
+    obo:BFO_0000056 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Vanderheiden-Schroen>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Sylvia> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274938527_4805> a nfdicore:NFDI_0000004 ;
+    rdfs:label "Nicolai Wippert" ;
+    obo:BFO_0000056 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Wippert>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Nicolai> .
+
+<https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/resources/1751274530784_112> a nfdicore:NFDI_0000004 ;
+    rdfs:label "Steven Susanto" ;
+    obo:BFO_0000056 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/Stefan%20Br%C3%A4se%20Group%2C%20Institute%20of%20Organic%20Chemistry%2C%20Karlsruhe%20Institute%20of%20Technology%2C%20Germany> ;
+    obo:IAO_0000235 <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/Susanto>,
+        <https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/Steven> .
+

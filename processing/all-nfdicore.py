@@ -1,13 +1,19 @@
+import sys
 from rdflib import Graph, Namespace
 
+input_file = sys.argv[1]
+output_file = sys.argv[2]
+
 # Namespaces
-SCHEMA = Namespace("https://schema.org/")
+SCHEMA = Namespace("http://schema.org/")
 NFDICORE = Namespace("https://nfdi.fiz-karlsruhe.de/ontology/")
 OBO = Namespace("http://purl.obolibrary.org/obo/")
+chebi = Namespace("http://purl.obolibrary.org/obo/chebi/")
+mwo = Namespace("http://purls.helmholtz-metadaten.de/mwo/")
 
 # Load RDF graph
 g = Graph()
-g.parse("output/2016.n3", format="nt")  # Replace with your file and format
+g.parse(input_file, format="n3")
 
 # Define SPARQL CONSTRUCT query
 construct_query = f"""
@@ -101,7 +107,7 @@ CONSTRUCT {{
   ?study a obo:BFO_0000015 ;
             nfdicore:NFDI_0000207 ?studyProfile ; #has standard
             nfdicore:NFDI_0001027 ?studyCreator ; #has standard
-            obo:BFO_0000132 ?publishingProcess .
+            obo:BFO_0000178 ?publishingProcess . # has continuant part
   
   ?publishingProcess a nfdicore:NFDI_0000014 ; #publishing process
             obo:BFO_0000199 ?publishingDateRegion . #occupies temporal region
@@ -170,12 +176,15 @@ CONSTRUCT {{
          chebi:inchikey ?chemicalpartEntitynameinChIKey ;
          chebi:smiles ?chemicalpartEntitynamesmiles ;
          chebi:formula ?molecularFormula ;
-         nfdicore:NFDI_0001006 ?molecularWeight .
+         obo:BFO_0000196 ?Weight .
 
   ?chemicalpartEntitynameiupacNameNode a nfdicore:NFDI_0000015 ; # identifier
          nfdicore:NFDI_0001007 ?chemicalpartEntitynameiupacName . #has value
          
-  ?molecularWeight a obo:IAO_0000109 ; # measurement datum
+  ?Weight a obo:BFO_0000019 ; #quality
+    obo:IAO_0000221 ?molecularWeightDatum . # is quality measurement of
+  
+  ?molecularWeightDatum a obo:IAO_0000109 ; # measurement datum
          mwo:MWO_0001119 ?molecularWeightunitNode ;
          nfdicore:NFDI_0001007 ?molecularWeightvalue .
   
@@ -196,10 +205,10 @@ WHERE {{
       schema:includedInDataCatalog ?catalog ;
       schema:isPartOf ?study .
   
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/description/", ENCODE_FOR_URI(?description))) AS ?descriptionNode)
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/identifier/", ENCODE_FOR_URI(?identifier))) AS ?identifierNode)
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/name/", ENCODE_FOR_URI(?name))) AS ?nameNode)
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/url/", ENCODE_FOR_URI(?url))) AS ?urlNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?description))) AS ?descriptionNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?identifier))) AS ?identifierNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?name))) AS ?nameNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?url))) AS ?urlNode)
 
   OPTIONAL {{ 
   ?technique schema:name ?techniqueName ;
@@ -208,8 +217,8 @@ WHERE {{
     schema:url ?techniqueurl ;
     schema:termCode ?techniqueTermCode .
   
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/url/", ENCODE_FOR_URI(?techniqueurl))) AS ?techniqueurlNode)
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/techniqueTermCode/", ENCODE_FOR_URI(?techniqueTermCode))) AS ?techniqueTermCodeNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?techniqueurl))) AS ?techniqueurlNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?techniqueTermCode))) AS ?techniqueTermCodeNode)
   }}
   
   OPTIONAL {{ 
@@ -220,7 +229,7 @@ WHERE {{
   ?publisher a schema:Organization ;
       schema:name ?publisherName ;
       schema:url ?publisherUrl .
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/publisherUrl/", ENCODE_FOR_URI(?publisherUrl))) AS ?publisherUrlNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?publisherUrl))) AS ?publisherUrlNode)
   }}
   
   OPTIONAL {{ 
@@ -233,12 +242,12 @@ WHERE {{
         ?creator schema:identifier ?orcid .
         FILTER(REGEX(STR(?orcid), "^0000-\\\\d{{4}}-\\\\d{{4}}-\\\\d{{3}}[\\\\dX]$"))
         BIND(IRI(CONCAT("https://orcid.org/", STR(?orcid))) AS ?orcidURI)
-        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/orcidNode/", ENCODE_FOR_URI(?orcid))) AS ?orcidNode)
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?orcid))) AS ?orcidNode)
 
         
       }}
-      BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/givenName/", ENCODE_FOR_URI(?givenName))) AS ?givenNameNode)
-      BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/familyName/", ENCODE_FOR_URI(?familyName))) AS ?familyNameNode)
+      BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?givenName))) AS ?givenNameNode)
+      BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?familyName))) AS ?familyNameNode)
   
   }}
   
@@ -247,9 +256,9 @@ WHERE {{
         ?affiliation a schema:Organization ;
             schema:name ?orgName .
       
-        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/affiliationProcess/", ENCODE_FOR_URI(?orgName))) AS ?affiliationProcess)
-        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/agent/", ENCODE_FOR_URI(?orgName))) AS ?agent)
-        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/role/", ENCODE_FOR_URI(?orgName))) AS ?role)
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?orgName))) AS ?affiliationProcess)
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?orgName))) AS ?agent)
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?orgName))) AS ?role)
     }}
  
   
@@ -262,8 +271,8 @@ WHERE {{
       schema:datePublished ?datePublished ;
       schema:publisher ?publisher .
   
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/publishingProcess/", ENCODE_FOR_URI(?datePublished))) AS ?publishingProcess)
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/publishingDateRegion/", ENCODE_FOR_URI(?datePublished))) AS ?publishingDateRegion)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?datePublished))) AS ?publishingProcess)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?datePublished))) AS ?publishingDateRegion)
   }}
   
   OPTIONAL {{ 
@@ -277,11 +286,11 @@ WHERE {{
       FILTER(REGEX(STR(?studyCreatororcid), "^0000-\\\\d{{4}}-\\\\d{{4}}-\\\\d{{3}}[\\\\dX]$"))
       BIND(IRI(CONCAT("https://orcid.org/", STR(?studyCreatororcid))) AS ?studyCreatororcidURI)
 
-      BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/orcidNode/", ENCODE_FOR_URI(?studyCreatororcid))) AS ?studyCreatororcidNode)
+      BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatororcid))) AS ?studyCreatororcidNode)
     }}
     
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorgiven/", ENCODE_FOR_URI(?studyCreatorgiven))) AS ?studyCreatorgivenNameNode)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorfamily/", ENCODE_FOR_URI(?studyCreatorfamily))) AS ?studyCreatorfamilyNameNode)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatorgiven))) AS ?studyCreatorgivenNameNode)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatorfamily))) AS ?studyCreatorfamilyNameNode)
   }}
   
   OPTIONAL {{
@@ -289,9 +298,9 @@ WHERE {{
     ?studyCreatoraffiliation a schema:Organization ;
       schema:name ?studyCreatororgName .
       
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoraffiliationProcess/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoraffiliationProcess)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatoragent/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoragent)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/studyCreatorrole/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatorrole)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoraffiliationProcess)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoragent)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatorrole)
   }}  
 
   OPTIONAL {{
@@ -303,10 +312,10 @@ WHERE {{
       schema:image ?image ;
       schema:hasBioChemEntityPart ?chemicalpartEntity ;
       schema:isPartOf ?study .
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/inchi/", ENCODE_FOR_URI(?inchi))) AS ?inchiNode)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalurl/", ENCODE_FOR_URI(?chemicalurl))) AS ?chemicalurlNode)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalidentifier/", ENCODE_FOR_URI(?chemicalidentifier))) AS ?chemicalidentifierNode)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/image/", ENCODE_FOR_URI(?image))) AS ?imageNode)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?inchi))) AS ?inchiNode)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?chemicalurl))) AS ?chemicalurlNode)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?chemicalidentifier))) AS ?chemicalidentifierNode)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?image))) AS ?imageNode)
   }}
   
   OPTIONAL {{
@@ -318,19 +327,19 @@ WHERE {{
       schema:smiles ?chemicalpartEntitynamesmiles ;
       schema:molecularWeight ?molecularWeight ;
       schema:molecularFormula ?molecularFormula .
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/chemicalpartEntitynameiupacName/", ENCODE_FOR_URI(?chemicalpartEntitynameiupacName))) AS ?chemicalpartEntitynameiupacNameNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?chemicalpartEntitynameiupacName))) AS ?chemicalpartEntitynameiupacNameNode)
   }}
   
   OPTIONAL {{
   ?molecularWeight a schema:QuantitativeValue ; 
         schema:unitCode ?molecularWeightunit ;
         schema:value ?molecularWeightvalue .
-  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/molecularWeightunit/", ENCODE_FOR_URI(?molecularWeightunit))) AS ?molecularWeightunitNode)
+  BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?molecularWeightunit))) AS ?molecularWeightunitNode)
   }}
   
 }}
 
-""" 
+"""    
 
 # Run the transformation
 converted_graph = g.query(construct_query).graph
@@ -338,7 +347,8 @@ converted_graph = g.query(construct_query).graph
 # Bind namespaces
 converted_graph.bind("nfdicore", NFDICORE)
 converted_graph.bind("obo", OBO)
+converted_graph.bind("chebi", chebi)
+converted_graph.bind("mwo", mwo)
 
 # Save the result
-converted_graph.serialize(destination="output_bfo_compliant.ttl", format="turtle")
-print("Conversion complete → output_bfo_compliant.ttl")
+converted_graph.serialize(destination=output_file, format="n3")

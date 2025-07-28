@@ -5,10 +5,12 @@ __pycache__/
 
 # Downloads and pre-processing
 processing/output/*
+processing/outputs/*
 processing/statistics/*
 processing/test/*
 processing/FDO/*
 processing/data/*
+processing/chunks_by_subject/*
 
 # C extensions
 *.so

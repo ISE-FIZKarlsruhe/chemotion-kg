@@ -9,10 +9,14 @@ This document contains competency questions for Chemotion-KG, along with corresp
 ### **CQ1: What are all the types of entities (concepts) in the Chemotion-KG?**
 This query retrieves a distinct list of all entity types (concepts) present in the knowledge graph.
 
+
 ```sparql
-SELECT DISTINCT ?Concept
+SELECT DISTINCT ?Concept ?label
 WHERE {
   [] a ?Concept
+  optional {
+    ?Concept rdfs:label ?label .    
+  }
 }
 LIMIT 999
 ```
@@ -22,12 +26,16 @@ LIMIT 999
 ### **CQ2: How many entities exist for each concept in the Chemotion-KG?**
 This query counts the number of entities associated with each concept and orders them by frequency.
 
+
 ```sparql
-SELECT ?Concept (COUNT(?entity) AS ?count)
+SELECT ?Concept ?label (COUNT(?entity) AS ?count)
 WHERE {
   ?entity a ?Concept .
+  optional {
+    ?Concept rdfs:label ?label .    
+  }
 }
-GROUP BY ?Concept
+GROUP BY ?Concept ?label
 ORDER BY DESC(?count)
 LIMIT 999
 ```

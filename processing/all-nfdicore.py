@@ -309,13 +309,16 @@ WHERE {{
       schema:alternateName ?inchi ;
       schema:identifier ?chemicalidentifier ;
       schema:url ?chemicalurl ;
-      schema:image ?image ;
-      schema:hasBioChemEntityPart ?chemicalpartEntity ;
-      schema:isPartOf ?study .
+      schema:hasBioChemEntityPart ?chemicalpartEntity .
+      
     BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?inchi))) AS ?inchiNode)
     BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?chemicalurl))) AS ?chemicalurlNode)
     BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?chemicalidentifier))) AS ?chemicalidentifierNode)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?image))) AS ?imageNode)
+
+    OPTIONAL {{?chemicalSubstance schema:isPartOf ?study . }}
+    OPTIONAL {{?chemicalSubstance schema:image ?image .
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?image))) AS ?imageNode)
+    }}
   }}
   
   OPTIONAL {{

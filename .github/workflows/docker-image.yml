@@ -8,17 +8,22 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          lfs: true
+
       - name: Login to GitHub Container registry
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+
       - name: downcase REPO
         run: |
           echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
           echo ${REPO}
           echo ${GITHUB_REPOSITORY}
+
       - name: Build and Push
         env:
           REGISTRY: ghcr.io

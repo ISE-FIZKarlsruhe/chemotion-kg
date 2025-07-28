@@ -256,9 +256,9 @@ WHERE {{
         ?affiliation a schema:Organization ;
             schema:name ?orgName .
       
-        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?orgName))) AS ?affiliationProcess)
-        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?orgName))) AS ?agent)
-        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?orgName))) AS ?role)
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/process/", ENCODE_FOR_URI(?orgName))) AS ?affiliationProcess)
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/agent/", ENCODE_FOR_URI(?orgName))) AS ?agent)
+        BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/role/", ENCODE_FOR_URI(?orgName))) AS ?role)
     }}
  
   
@@ -298,9 +298,9 @@ WHERE {{
     ?studyCreatoraffiliation a schema:Organization ;
       schema:name ?studyCreatororgName .
       
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoraffiliationProcess)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoragent)
-    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatorrole)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/process/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoraffiliationProcess)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/agent/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatoragent)
+    BIND(IRI(CONCAT("https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/nodes/role/", ENCODE_FOR_URI(?studyCreatororgName))) AS ?studyCreatorrole)
   }}  
 
   OPTIONAL {{

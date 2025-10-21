@@ -7,7 +7,6 @@ The **Chemotion Knowledge Graph (Chemotion-KG)** provides an interconnected and 
 ## Navigation
 
 - [SPARQL Endpoint](https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/sparql){:target="_blank"}
-- [Chemotion Ontology](https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/ontology/){:target="_blank"}
 - [Data Repository](https://chemotion.net/){:target="_blank"}
 - [How to Contribute](https://github.com/ISE-FIZKarlsruhe/chemotion-kg){:target="_blank"}
 - [Contact Us](mailto:ebrahim.norouzi@fiz-karlsruhe.de)
